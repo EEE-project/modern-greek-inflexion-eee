@@ -108,6 +108,34 @@ class VerbTestAorAct(TestCase):
 
         )
 
+    def test_scholazo_aorist(self):
+        """
+        Test σχολάω (to skip school) aorist forms.
+
+        σχολάω is a contract verb (-άω group) that uses the Β2 (σχολάσ-) aorist type:
+        - σχόλασα (1st sg)
+        - σχολάσαμε (1st pl)
+        - σχολάσατε (2nd pl)
+        - σχολάσανε (3rd pl)
+
+        Reference: https://rimata.app/verb/σχολάω shows σχόλασα as the aorist.
+        """
+        self.assertDictEqual(
+            aorist_act('σχολάω'),
+            {
+                'sg': {
+                    'pri': {'σχόλασα'},
+                    'sec': {'σχόλασες'},
+                    'ter': {'σχόλασε'}
+                },
+                'pl': {
+                    'pri': {'σχολάσαμε'},
+                    'sec': {'σχολάσατε'},
+                    'ter': {'σχόλασαν', 'σχολάσανε'}
+                }
+            }
+        )
+
 
 class VerbTestAorPass(TestCase):
     def test_dexomai(self):

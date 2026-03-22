@@ -236,20 +236,22 @@ def create_regular_perf_active_root(pres_form: str,
     elif pres_conjugation in [CON2A_ACT, CON2AK_ACT, CON2B_ACT, CON2A_PASS, CON2B_PASS, CON2C_PASS, CON2_ACT_MODAL] and \
             not irregular:
 
-        perf_root = root + 'ήσ'
+        # For contract verbs, check B2 first, then B1
+        perf_root = root + 'άσ'
         if root[-2:] in ['χν', 'ρν', 'λν']:
-            perf_root = root[:-1] + 'ήσ'
+            perf_root = root[:-1] + 'άσ'
 
-        if active_subjunctive_sigmatic_exists(perf_root, pres_form) and active_subjunctive_sigmatic_exists(root + 'ήξ', pres_form):
-            alternative_root = root + 'ήξ'
-            perf_root = perf_root + ',' + alternative_root
-
-        elif not active_subjunctive_sigmatic_exists(perf_root, pres_form):
-            perf_root = root + 'άσ'
+        # If B2 doesn't exist, try B1
+        if not active_subjunctive_sigmatic_exists(perf_root, pres_form):
+            perf_root = root + 'ήσ'
             if root[-2:] in ['χν', 'ρν', 'λν']:
-                perf_root = root[:-1] + 'άσ'
+                perf_root = root[:-1] + 'ήσ'
 
-            if not active_subjunctive_sigmatic_exists(perf_root, pres_form):
+            if active_subjunctive_sigmatic_exists(perf_root, pres_form) and active_subjunctive_sigmatic_exists(root + 'ήξ', pres_form):
+                alternative_root = root + 'ήξ'
+                perf_root = perf_root + ',' + alternative_root
+
+            elif not active_subjunctive_sigmatic_exists(perf_root, pres_form):
                 perf_root = root + 'έσ'
                 if not active_subjunctive_sigmatic_exists(perf_root, pres_form):
                     perf_root = root + 'άξ'
