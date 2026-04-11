@@ -1,8 +1,8 @@
-from modern_greek_accentuation.accentuation import put_accent_on_the_penultimate, put_accent_on_the_antepenultimate, \
+from modern_greek_accentuation_eee.accentuation import put_accent_on_the_penultimate, put_accent_on_the_antepenultimate, \
     where_is_accent
-from modern_greek_accentuation.augmentify import add_augment
-from modern_greek_accentuation.resources import vowels
-from modern_greek_accentuation.syllabify import count_syllables
+from modern_greek_accentuation_eee.augmentify import add_augment
+from modern_greek_accentuation_eee.resources import vowels
+from modern_greek_accentuation_eee.syllabify import count_syllables
 
 from modern_greek_inflexion_eee.resources import greek_corpus
 from modern_greek_inflexion_eee.resources.prefixes import prefixes_before_augment

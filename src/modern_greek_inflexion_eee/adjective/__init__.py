@@ -2,7 +2,7 @@ from modern_greek_inflexion_eee.adjective.basic.create_basic_adj import create_a
 from .all.create_all_adj import create_all_adj_forms
 from ..exceptions import NotInGreekException
 from modern_greek_inflexion_eee.verb.helpers import merging_all_dictionaries
-from modern_greek_accentuation.accentuation import convert_to_monotonic
+from modern_greek_accentuation_eee.accentuation import convert_to_monotonic
 
 from ..resources.typing import adj_basic_forms_type, genders_declensions_type, adj_declension_degree_type
 from ..resources.variables import ADJ, ADVERB, COMP, COMP_ADV, ADV, COMPARATIVE, ADVERB_COMPARATIVE, SUPERL, SUPERL_ADV

@@ -1,8 +1,8 @@
 from __future__ import annotations
-from modern_greek_accentuation.accentuation import where_is_accent, put_accent_on_the_penultimate, \
+from modern_greek_accentuation_eee.accentuation import where_is_accent, put_accent_on_the_penultimate, \
     put_accent_on_the_antepenultimate, put_accent_on_the_ultimate, count_syllables, remove_all_diacritics, \
     put_accent, remove_diaer
-from modern_greek_accentuation.resources import vowels, PENULTIMATE, ANTEPENULTIMATE, ULTIMATE
+from modern_greek_accentuation_eee.resources import vowels, PENULTIMATE, ANTEPENULTIMATE, ULTIMATE
 
 from .helpers import capitalize_basic_forms
 from ..resources import greek_pattern
@@ -15,7 +15,7 @@ from ..resources import greek_corpus
 from ..resources.noun import noun_grammar_lists, nouns_masc_fem
 
 from ..exceptions import NotInGreekException
-from modern_greek_accentuation.accentuation import convert_to_monotonic
+from modern_greek_accentuation_eee.accentuation import convert_to_monotonic
 
 GENDERS = 'genders'
 

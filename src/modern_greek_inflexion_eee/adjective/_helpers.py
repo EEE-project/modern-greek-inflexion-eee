@@ -1,7 +1,7 @@
-from modern_greek_accentuation._helpers import AccentType
+from modern_greek_accentuation_eee._helpers import AccentType
 
-from modern_greek_accentuation.accentuation import put_accent, where_is_accent
-from modern_greek_accentuation.syllabify import count_syllables
+from modern_greek_accentuation_eee.accentuation import put_accent, where_is_accent
+from modern_greek_accentuation_eee.syllabify import count_syllables
 
 from modern_greek_inflexion_eee.resources import PENULTIMATE
 from modern_greek_inflexion_eee.resources.typing import genders_declensions_type

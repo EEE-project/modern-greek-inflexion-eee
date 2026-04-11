@@ -1,4 +1,4 @@
-from modern_greek_accentuation.accentuation import (put_accent_on_the_ultimate,
+from modern_greek_accentuation_eee.accentuation import (put_accent_on_the_ultimate,
                                                     put_accent_on_the_penultimate,
                                                     remove_all_diacritics)
 from modern_greek_inflexion_eee.resources import CON1_ACT, greek_corpus, CON2A_ACT, CON2B_ACT, CON2D_ACT, CON2AK_ACT, \

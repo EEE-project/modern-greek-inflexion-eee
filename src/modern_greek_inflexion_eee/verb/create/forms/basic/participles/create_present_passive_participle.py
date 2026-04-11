@@ -1,4 +1,4 @@
-from modern_greek_accentuation.accentuation import remove_all_diacritics, put_accent_on_the_antepenultimate
+from modern_greek_accentuation_eee.accentuation import remove_all_diacritics, put_accent_on_the_antepenultimate
 
 from modern_greek_inflexion_eee.resources.typing import presentConjugationType
 from modern_greek_inflexion_eee.resources.variables import CON1_PASS, CON1_ACT, CON2AK_ACT, CON2A_ACT, CON2AK_PASS, CON2A_PASS, \

@@ -1,5 +1,5 @@
-from modern_greek_accentuation.accentuation import is_accented
-from modern_greek_accentuation.syllabify import modern_greek_syllabify
+from modern_greek_accentuation_eee.accentuation import is_accented
+from modern_greek_accentuation_eee.syllabify import modern_greek_syllabify
 
 from modern_greek_inflexion_eee.resources import greek_corpus, PASSIVE, CON1_ACT_MODAL, CON2_ACT_MODAL, ACTIVE
 from modern_greek_inflexion_eee.resources.typing import presentConjugationType

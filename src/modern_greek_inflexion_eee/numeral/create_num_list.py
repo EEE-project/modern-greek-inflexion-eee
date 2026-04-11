@@ -1,4 +1,4 @@
-from modern_greek_accentuation.accentuation import count_syllables, remove_all_diacritics
+from modern_greek_accentuation_eee.accentuation import count_syllables, remove_all_diacritics
 
 from ..adjective import create_all_basic_forms
 from ..resources.variables import ADJ, ADVERB

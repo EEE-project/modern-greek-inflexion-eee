@@ -1,5 +1,5 @@
-from modern_greek_accentuation.accentuation import where_is_accent, put_accent, count_syllables, remove_all_diacritics
-from modern_greek_accentuation.resources import vowels
+from modern_greek_accentuation_eee.accentuation import where_is_accent, put_accent, count_syllables, remove_all_diacritics
+from modern_greek_accentuation_eee.resources import vowels
 from ..resources import greek_corpus
 from ..resources.typing import genders_declensions_type, genderBasicType
 from ..resources.variables import *

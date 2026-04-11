@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from copy import deepcopy
 
-from modern_greek_accentuation.accentuation import where_is_accent, put_accent_on_the_ultimate, \
+from modern_greek_accentuation_eee.accentuation import where_is_accent, put_accent_on_the_ultimate, \
     put_accent_on_the_penultimate, put_accent
-from modern_greek_accentuation.resources import vowels
+from modern_greek_accentuation_eee.resources import vowels
 
 from modern_greek_inflexion_eee.adjective.all.create_all_alt import alternative_forms_r, alternative_forms_ios, \
     alternative_forms_us, alternative_fem_os, alternative_forms_kxth, alternative_forms_modern_3rd, \

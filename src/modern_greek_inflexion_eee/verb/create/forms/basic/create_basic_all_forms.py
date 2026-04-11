@@ -17,10 +17,10 @@ from modern_greek_inflexion_eee.verb.create.forms.basic.participles.create_prese
 from modern_greek_inflexion_eee.verb.create.forms.basic.participles.create_present_passive_participle import \
     create_present_passive_participle
 from modern_greek_inflexion_eee.verb.helpers import update_forms_with_prefix
-from modern_greek_accentuation.accentuation import remove_diaer, put_accent_on_the_penultimate, \
+from modern_greek_accentuation_eee.accentuation import remove_diaer, put_accent_on_the_penultimate, \
     put_accent_on_the_antepenultimate, where_is_accent, put_accent_on_the_ultimate
-from modern_greek_accentuation.syllabify import count_syllables
-from modern_greek_accentuation.augmentify import deaugment_past_form
+from modern_greek_accentuation_eee.syllabify import count_syllables
+from modern_greek_accentuation_eee.augmentify import deaugment_past_form
 from modern_greek_inflexion_eee.resources.verb import para_detachable_never, para_detachable_only
 from modern_greek_inflexion_eee.resources import greek_corpus
 from modern_greek_inflexion_eee.resources.verb import irregular_passive_roots

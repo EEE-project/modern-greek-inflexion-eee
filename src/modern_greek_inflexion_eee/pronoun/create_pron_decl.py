@@ -1,4 +1,4 @@
-from modern_greek_accentuation.accentuation import put_accent, where_is_accent
+from modern_greek_accentuation_eee.accentuation import put_accent, where_is_accent
 
 from ..adjective import create_all_adj_forms
 from modern_greek_inflexion_eee.verb.helpers import merging_all_dictionaries

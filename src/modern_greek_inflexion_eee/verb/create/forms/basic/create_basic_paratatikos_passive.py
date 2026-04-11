@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from modern_greek_accentuation.accentuation import put_accent_on_the_penultimate, put_accent_on_the_antepenultimate, \
+from modern_greek_accentuation_eee.accentuation import put_accent_on_the_penultimate, put_accent_on_the_antepenultimate, \
     remove_all_diacritics
-from modern_greek_accentuation.augmentify import add_augment
+from modern_greek_accentuation_eee.augmentify import add_augment
 
 from modern_greek_inflexion_eee.resources import CON1_ACT, CON2A_ACT, CON2AK_ACT, CON2B_ACT, CON2D_ACT, CON2C_ACT, \
     greek_corpus, CON2E_PASS, CON2D_PASS, CON2B_PASS, CON2A_PASS, CON1_PASS, CON2C_PASS, CON2AK_PASS, CON2F_PASS

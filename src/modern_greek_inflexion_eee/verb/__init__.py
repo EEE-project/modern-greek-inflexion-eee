@@ -5,7 +5,7 @@ from modern_greek_inflexion_eee.adjective.all.create_all_adj import create_all_a
 from modern_greek_inflexion_eee.verb.helpers import merging_all_dictionaries, dict_of_dicts_merge
 
 from modern_greek_inflexion_eee.verb.create.forms.basic.create_basic_all_forms import create_all_basic_forms
-from modern_greek_accentuation.accentuation import convert_to_monotonic
+from modern_greek_accentuation_eee.accentuation import convert_to_monotonic
 from ..resources.typing import basic_forms_type, voice_forms_imp_type, voice_forms_type, participles_type, \
     genders_declensions_type
 from ..resources.variables import *

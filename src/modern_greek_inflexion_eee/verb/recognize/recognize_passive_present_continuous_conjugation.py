@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from modern_greek_accentuation.resources import vowels
+from modern_greek_accentuation_eee.resources import vowels
 
 from modern_greek_inflexion_eee.exceptions import NotLegalVerbException
 from modern_greek_inflexion_eee.resources import greek_corpus

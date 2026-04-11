@@ -8,7 +8,7 @@ from ..noun import Noun
 from ..resources import greek_pattern
 from ..resources.numerals import cardinal_irregulars
 from ..resources.variables import ADJ, ADV
-from modern_greek_accentuation.accentuation import convert_to_monotonic
+from modern_greek_accentuation_eee.accentuation import convert_to_monotonic
 from ..exceptions import NotInGreekException
 from ..resources.typing import genders_declensions_type
 

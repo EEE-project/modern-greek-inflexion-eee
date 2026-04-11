@@ -3,9 +3,9 @@ from __future__ import annotations
 import unicodedata
 
 from copy import deepcopy
-from modern_greek_accentuation.resources import vowels, diphtongs
-from modern_greek_accentuation.syllabify import count_syllables
-from modern_greek_accentuation.accentuation import put_accent_on_syllable, DIAERESIS, put_accent_on_the_antepenultimate, \
+from modern_greek_accentuation_eee.resources import vowels, diphtongs
+from modern_greek_accentuation_eee.syllabify import count_syllables
+from modern_greek_accentuation_eee.accentuation import put_accent_on_syllable, DIAERESIS, put_accent_on_the_antepenultimate, \
     where_is_accent
 from modern_greek_inflexion_eee.resources import greek_corpus, IMP, MODAL, PRES_CONJUGATION
 

@@ -1,4 +1,4 @@
-from modern_greek_accentuation.augmentify import deaugment_stem, deaugment_prefixed_form
+from modern_greek_accentuation_eee.augmentify import deaugment_stem, deaugment_prefixed_form
 
 
 def create_stem_from_augmented_past(past_form: str, pres_form: str) -> str:

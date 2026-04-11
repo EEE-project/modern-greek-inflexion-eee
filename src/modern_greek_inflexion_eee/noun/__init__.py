@@ -3,7 +3,7 @@ from __future__ import annotations
 from .create_noun_basic import create_all_basic_forms
 from .create_noun_decl import create_all_noun_forms
 from modern_greek_inflexion_eee.verb.helpers import merging_all_dictionaries
-from modern_greek_accentuation.accentuation import convert_to_monotonic
+from modern_greek_accentuation_eee.accentuation import convert_to_monotonic
 from ..resources.typing import genderType, noun_basic_forms, genders_declensions_type
 
 

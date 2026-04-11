@@ -1,4 +1,4 @@
-from modern_greek_accentuation.accentuation import convert_to_monotonic
+from modern_greek_accentuation_eee.accentuation import convert_to_monotonic
 
 from ..resources.article import definite_article, indefinite_article
 from ..resources.typing import genders_declensions_type, adj_declension_degree_type

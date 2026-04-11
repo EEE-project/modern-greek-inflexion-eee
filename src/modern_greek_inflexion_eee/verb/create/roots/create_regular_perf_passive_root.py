@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from modern_greek_accentuation.accentuation import *
+from modern_greek_accentuation_eee.accentuation import *
 
 from modern_greek_inflexion_eee.resources.typing import presentConjugationType
 from modern_greek_inflexion_eee.resources.verb import irregular_passive_roots

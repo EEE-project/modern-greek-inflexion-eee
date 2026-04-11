@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from modern_greek_accentuation.accentuation import put_accent_on_the_antepenultimate, put_accent_on_the_penultimate
+from modern_greek_accentuation_eee.accentuation import put_accent_on_the_antepenultimate, put_accent_on_the_penultimate
 
 from modern_greek_inflexion_eee.resources.typing import presentConjugationType
 from modern_greek_inflexion_eee.verb.helpers import check_personal_forms

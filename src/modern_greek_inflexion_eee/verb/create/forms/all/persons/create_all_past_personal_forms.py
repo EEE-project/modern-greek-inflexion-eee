@@ -7,9 +7,9 @@ from modern_greek_inflexion_eee.verb.create.roots.create_roots_from_past import 
 from modern_greek_inflexion_eee.verb.recognize import recognize_past_conjugation
 from modern_greek_inflexion_eee.resources.variables import PASSIVE, SG, TER, EIMAI_PARATATIKOS, IND, \
     MODAL, PARAT2_ACT, ROOT, IMPERF, CONJUGATION_IND, ULTIMATE
-from modern_greek_accentuation.accentuation import where_is_accent, put_accent_on_the_penultimate
+from modern_greek_accentuation_eee.accentuation import where_is_accent, put_accent_on_the_penultimate
 from modern_greek_inflexion_eee.resources import greek_corpus
-from modern_greek_accentuation.syllabify import modern_greek_syllabify
+from modern_greek_accentuation_eee.syllabify import modern_greek_syllabify
 
 
 def create_all_past_personal_forms(past_basic_form: set[str],

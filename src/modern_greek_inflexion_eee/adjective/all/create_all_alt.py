@@ -1,11 +1,11 @@
 from copy import deepcopy
 
-from modern_greek_accentuation.accentuation import put_accent, put_accent_on_the_penultimate, put_accent_on_the_ultimate
+from modern_greek_accentuation_eee.accentuation import put_accent, put_accent_on_the_penultimate, put_accent_on_the_ultimate
 from modern_greek_inflexion_eee.adjective._helpers import put_accent_on_all_forms
 from modern_greek_inflexion_eee.resources import greek_corpus
 from modern_greek_inflexion_eee.resources.typing import genders_declensions_type, adj_declension_degree_type
 from modern_greek_inflexion_eee.resources.variables import SG, FEM, NOM, ACC, GEN, VOC, NEUT, MASC, PL, ULTIMATE
-from modern_greek_accentuation._helpers import AccentType
+from modern_greek_accentuation_eee._helpers import AccentType
 from modern_greek_inflexion_eee.resources.adj import adj_basic_template_alt
 
 

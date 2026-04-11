@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from modern_greek_accentuation.accentuation import put_accent_on_the_ultimate, where_is_accent, put_accent, remove_all_diacritics
+from modern_greek_accentuation_eee.accentuation import put_accent_on_the_ultimate, where_is_accent, put_accent, remove_all_diacritics
 from .. import adjective
 from ..exceptions import NotInGreekException
 from ..resources import greek_pattern

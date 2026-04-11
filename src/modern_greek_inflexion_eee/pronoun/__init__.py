@@ -1,6 +1,6 @@
 from .create_pron_basic import create_basic_forms
 from .create_pron_decl import create_all_pron_forms
-from modern_greek_accentuation.accentuation import convert_to_monotonic
+from modern_greek_accentuation_eee.accentuation import convert_to_monotonic
 
 from ..resources.typing import genders_declensions_type
 

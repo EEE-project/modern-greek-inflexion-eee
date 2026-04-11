@@ -1,6 +1,6 @@
 from modern_greek_inflexion_eee.resources import greek_corpus
-from modern_greek_accentuation.accentuation import remove_all_diacritics, put_accent_on_the_penultimate
-from modern_greek_accentuation.syllabify import count_syllables
+from modern_greek_accentuation_eee.accentuation import remove_all_diacritics, put_accent_on_the_penultimate
+from modern_greek_accentuation_eee.syllabify import count_syllables
 
 
 def create_imp_pass(perf_pass_root: str) -> str:
