@@ -123,6 +123,7 @@ irregular_imperative_forms = {
     "πά": {SG: {SEC: 'πήγαινε'}, PL: {SEC: 'πηγαίνετε'}},
     "έρθ": {SG: {SEC: 'έλα'}, PL: {SEC: 'ελάτε'}},
     "έλθ": {SG: {SEC: 'έλα'}, PL: {SEC: 'ελάτε'}},
+    'παραγγέλν': {SG: {SEC: 'παράγγελλε'}, PL: {SEC: 'παραγγέλλετε'}},
 }
 
 irregular_active_roots = {
