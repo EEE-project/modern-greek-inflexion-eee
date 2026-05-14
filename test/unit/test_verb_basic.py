@@ -637,9 +637,10 @@ class VerbTestBasic(TestCase):
                              ),
 
     def test_verb_synyparxw(self):
+        from modern_greek_inflexion_eee import Verb as VerbEEE
         self.maxDiff = None
         self.assertDictEqual(
-            basic_verb('συνυπάρχω'),
+            VerbEEE('συνυπάρχω').basic_forms,
             {'act_pres_participle': {'συνυπάρχοντας'},
              'aorist': {'active': {'συνυπήρξα'}},
              'arch_act_pres_participle': {'συνυπάρχων/συνυπάρχουσα/συνυπάρχον'},
