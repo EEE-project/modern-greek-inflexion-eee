@@ -149,6 +149,10 @@ def create_all_pers_forms(conjugation_name: str, root: str, active_root: str | N
     elif conjugation_name == CON2A_PASS and root + 'ιούμαι' in greek_corpus:
         forms[SG][PRI].append(root + 'ιούμαι')
 
+    elif conjugation_name == IMPER_PASS_CONT_2C:
+        if root + 'ούμαι' in greek_corpus:
+            forms = add_alternative_endings(forms, IMPER_PASS_CONT_2B, root, None)
+
     elif conjugation_name == CON2B_PASS:
         if root + 'ούμεθα' in greek_corpus:
             forms = add_alternative_endings(forms, CON2B_PASS_ARCHAIC, root, None)

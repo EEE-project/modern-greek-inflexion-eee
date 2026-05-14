@@ -130,6 +130,13 @@ class VerbTestImperPass(TestCase):
             {'sg': {'sec': {'αντιλήψου'}}, 'pl': {'sec': {'αντιληφθείτε'}}}
         )
 
+    def test_fovamaiimper(self):
+        from modern_greek_inflexion_eee.verb import Verb as VerbEEE
+        from modern_greek_inflexion_eee.resources.variables import PRESENT, PASSIVE, IMP
+        v = VerbEEE('φοβάμαι')
+        imp = v.create_imperfect_forms()[PRESENT][PASSIVE][IMP]
+        self.assertDictEqual(imp, {'pl': {'sec': {'φοβάστε', 'φοβείστε'}}})
+
     def test_briskw(self):
         self.assertDictEqual(
             imp_conj_pass('βρίσκω'),
