@@ -104,3 +104,13 @@ class VerbTestConPass(TestCase):
              'pl': {'pri': {'παραβληθούμε'}, 'sec': {'παραβληθείτε'}, 'ter': {'παραβληθούνε', 'παραβληθούν'}}}
 
         )
+
+    def test_verb_exigw_active_future(self):
+        from modern_greek_inflexion_eee.verb import Verb as VerbEEE
+        from modern_greek_inflexion_eee.resources.variables import ACTIVE, IND
+        self.assertDictEqual(
+            VerbEEE('εξηγώ').create_conjunctive()[ACTIVE][IND],
+            {'sg': {'pri': {'εξηγήσω'}, 'sec': {'εξηγήσεις'}, 'ter': {'εξηγήσει'}},
+             'pl': {'pri': {'εξηγήσουμε', 'εξηγήσομε'}, 'sec': {'εξηγήσετε'}, 'ter': {'εξηγήσουν', 'εξηγήσουνε'}}}
+        )
+
